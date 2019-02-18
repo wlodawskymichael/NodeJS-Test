@@ -39,3 +39,5 @@ You're Done! Now jump on ahead to the *Github* Section!
 
 ### Windows
 If you have a Windows Computer, I'm sorry. You might run into issues, so PLEASE email me if you're stuck!
+
+## Github
