@@ -13,7 +13,7 @@ class App extends Component {
           </p>
           <a
             className="App-link"
-            href="https://utexas.edu"
+            href="https://utrejects.com"
             target="_blank"
             rel="noopener noreferrer"
           >
