@@ -4,7 +4,7 @@ First thing is first, you're going to have to download NodeJs and React Native. 
 ## Installation
 ### !! If you are using a Windows computer, look at the Windows Section !! ###
 ### Mac
-If you have a Mac, this is going to be easy for you!
+If you have a Mac, this is should be easier for you!
 
 1. Open terminal.
 
@@ -38,6 +38,19 @@ When it asks for your password, it is the password to login to your computer.
 You're Done! Now jump on ahead to the *Github* Section!
 
 ### Windows
-If you have a Windows Computer, I'm sorry. You might run into issues, so PLEASE email me if you're stuck!
+If you have a Windows Computer, I'm sorry. You might run into issues, so PLEASE email me if you're stuck! 
+
+1. Go download the NodeJS installer [here](http://nodejs.org/).
+ Note: Choose the version that says "Recommended For Most Users"
+
+2. Run the Installer and follow the prompts on the installer (you should not need to make any custom settings).
+
+3. Restart you computer.
+
+4. Test your installation by opening the application "Command Prompt" and typing the line below.
+```shell
+npm -v
+````
+Note: If you get an Error about "npm" not being a command, try installing NodeJS again. If you that does not work, you will probably need to bring in your computer so I can troubleshoot.
 
 ## Github
