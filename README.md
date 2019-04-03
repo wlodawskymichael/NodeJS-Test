@@ -1,4 +1,4 @@
-# Setup (Read Each Step Carefully) #
+# :red_circle: Setup (Read Each Step Carefully) #
 First thing is first, you're going to have to download NodeJs and React Native. Those are just big fancy words for the coding stuff we will need! 
 
 ## Installating NodeJS
@@ -53,7 +53,7 @@ npm -v
 ````
 Note: If you get an Error about "npm" not being a command, try installing NodeJS again. If you that does not work, you will probably need to bring in your computer so I can troubleshoot.
 
-# Git/Github Tutorial (Correct use/Installation) #
+# :red_circle: Git/Github Tutorial (Correct use/Installation) #
 
 ### Note Before Starting
 1. You will be using the Command Prompt (Windows) or Terminal (MacOS/Linux) to run most of these commands! I recommend tagging these application to your Applications bar or somewhere to where you can easily access those applications.
@@ -131,7 +131,7 @@ You need to pull down your changes you don't have a discrepency between the code
 git pull
 ```
 
-# Workflow (Developing your Web App) #
+# :red_circle: Workflow (Developing your Web App) #
 
 ## Developing Locally
 Developing locally is the best way to debug your programs. To do this, make sure you are in the same directory as your respository -- which if you followed directions should be the default directory that your terminal/command prompt opens up to. These steps are used to develop locally and deploy to Github pages.
