@@ -1,8 +1,9 @@
 # :red_circle: Setup (Read Each Step Carefully) #
+
+### BIG NOTE: Some commands and instructions will be different between Operating Systems (i.e. MacOS/Windows/Linux). Be aware of what computer you're using so that you follow the correct instructions!! ###
 First thing is first, you're going to have to download NodeJs and React Native. Those are just big fancy words for the coding stuff we will need! 
 
 ## Installating NodeJS
-### !! If you are using a Windows computer, look at the Windows Section !! ###
 ### Mac
 If you have a Mac, this is should be easier for you!
 
