@@ -105,6 +105,10 @@ Note: Your command will look something like this:
 ```shell
 git clone https://github.com/...my_repository
 ```
+4. To be able to make git commits, you will need to change directory (cd) to your project you just cloned. So all you need to do is simply:
+```shell
+cd my_repository
+```
 
 ##### Step 2) Creating Commits
 **YOU SHOULD DO THIS STEP EVERY 20-30 MINUTES!!**
