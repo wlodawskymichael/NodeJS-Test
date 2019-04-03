@@ -160,13 +160,22 @@ Note: If throws an error like "sh: react-scripts: command not found", then refer
 ```shell
 npm start
 ```
-This will open a window in your browser to immediatley show you the changes you made to your website!
+This will open a window in your browser to immediatley show you the changes you made to your website! If it does not open a tab, simply open a new tab and point to the address "localhost:3000" to see your app running locally.
 
-4. Finally, when you want to deploy your working app to your GitHub Page, simply run this command:
+## Deploying to your website
+
+1. You need to setup your ```package.json``` to deploy to your website. Open ```package.json``` and change the argument "homepage" to your personal repository homepage:
+```diff
+- "homepage": "https://diydiagnostics.github.io/NodeJS-Test/"
++ "homepage": "https://<GitHub_Username>.github.io/NodeJS-Test/"
+```
+**Note:** You only need to do this step ONCE!!
+
+2. Finally, when you want to deploy your working app to your GitHub Page, simply run this command:
 ```shell
 npm run deploy
 ```
-This will rebuild your app and then deploy it to your GitHub Page.
+This will rebuild your app and then deploy it to your GitHub Page. Be patient, it might take a few minutes to deploy.
 
 
 
