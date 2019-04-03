@@ -139,13 +139,13 @@ Developing locally is the best way to debug your programs. To do this, make sure
 
 **Mac/Linux**
 ```shell
-sudo npm install -g npm
+sudo npm install
 ```
 **Windows**
 
 Right click the command prompt application and press "Run as Administrator". Then, in the command line type:
 ```shell
-npm install -g npm
+npm install
 ```
 Note: These will ask for your computer login password, but this is needed to Node JS can make the correct changes to all of the files needed.
 This updates Node JS to the latest version incase there were updates. Sometimes you will need to do this to make sure your local setup works properly.
