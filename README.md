@@ -55,16 +55,20 @@ Note: If you get an Error about "npm" not being a command, try installing NodeJS
 
 ## Github
 
+[Here](GitHub_Tutorial.md) is the tutorial for downloading Git and using the Command Line Interface for your source control (aka versioning your app).
+
 # Workflow #
 
 ## Developing Locally
 Developing locally is the best way to debug your programs. To do this, make sure you are in the same directory as your respository -- which if you followed directions should be the default directory that your terminal/command prompt opens up to. These steps are used to develop locally and deploy to Github pages.
 1. Before you start working always run:
+
 **Mac/Linux**
 ```shell
 sudo npm install
 ```
 **Windows**
+
 Right click the command prompt application and press "Run as Administrator". Then, in the command line type:
 ```shell
 npm install
