@@ -1,0 +1,14 @@
+.Content {
+    margin-top: 110px;
+}
+
+.disclaimer {
+    max-width: 350px;
+    position: absolute;
+    left: 40%;
+    top: 130%;
+    padding: 8px;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.726);
+    color: white;
+}

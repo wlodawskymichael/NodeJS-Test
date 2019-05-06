@@ -1,0 +1,63 @@
+html {
+    background-image: url('../../ut.jpg');
+    background-size: cover;
+    background-position: 0px 100px;
+    background-repeat: no-repeat;
+}
+
+.toolbar {
+    position: fixed;
+    width: 100%;
+    height: 100px;
+    top: 0;
+    left: 0;
+    background-color: #bf5700;
+}
+
+.logo {
+    height: 75px;
+    width: 150px;
+    padding-top: 20px;
+    display: inline-block;
+    background-image: url('../../favicon.ico');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
+/* Make default button class for website unification. */
+a {
+    border: none;
+    background-color: inherit;
+    padding: 14px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+/* Set color for button when it has a cursor over it. */
+a:hover {
+    background: #c4bcbca1;
+}
+
+nav {
+    display: inline-block;
+    padding-top: 10px;
+}
+
+/* Remove bullet points from navigation bar. */
+ul {
+    list-style-type: none;
+    padding-left: 8px;
+    display: inline-block;
+    color: white;
+}
+  
+/* Keep navigation menu on one line. */
+li {
+    display: inline-block;
+    margin-right: 10px;
+}
