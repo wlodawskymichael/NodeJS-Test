@@ -1,8 +1,9 @@
-# Setup (Read Each Step Carefully) #
+# :red_circle: Setup (Read Each Step Carefully) #
+
+### BIG NOTE: Some commands and instructions will be different between Operating Systems (i.e. MacOS/Windows/Linux). Be aware of what computer you're using so that you follow the correct instructions!! ###
 First thing is first, you're going to have to download NodeJs and React Native. Those are just big fancy words for the coding stuff we will need! 
 
 ## Installating NodeJS
-### !! If you are using a Windows computer, look at the Windows Section !! ###
 ### Mac
 If you have a Mac, this is should be easier for you!
 
@@ -53,7 +54,7 @@ npm -v
 ````
 Note: If you get an Error about "npm" not being a command, try installing NodeJS again. If you that does not work, you will probably need to bring in your computer so I can troubleshoot.
 
-# Git/Github Tutorial (Correct use/Installation) #
+# :red_circle: Git/Github Tutorial (Correct use/Installation) #
 
 ### Note Before Starting
 1. You will be using the Command Prompt (Windows) or Terminal (MacOS/Linux) to run most of these commands! I recommend tagging these application to your Applications bar or somewhere to where you can easily access those applications.
@@ -105,6 +106,10 @@ Note: Your command will look something like this:
 ```shell
 git clone https://github.com/...my_repository
 ```
+4. To be able to make git commits, you will need to change directory (cd) to your project you just cloned. So all you need to do is simply:
+```shell
+cd my_repository
+```
 
 ##### Step 2) Creating Commits
 **YOU SHOULD DO THIS STEP EVERY 20-30 MINUTES!!**
@@ -131,7 +136,7 @@ You need to pull down your changes you don't have a discrepency between the code
 git pull
 ```
 
-# Workflow (Developing your Web App) #
+# :red_circle: Workflow (Developing your Web App) #
 
 ## Developing Locally
 Developing locally is the best way to debug your programs. To do this, make sure you are in the same directory as your respository -- which if you followed directions should be the default directory that your terminal/command prompt opens up to. These steps are used to develop locally and deploy to Github pages.
@@ -139,13 +144,13 @@ Developing locally is the best way to debug your programs. To do this, make sure
 
 **Mac/Linux**
 ```shell
-sudo npm install -g npm
+sudo npm install
 ```
 **Windows**
 
 Right click the command prompt application and press "Run as Administrator". Then, in the command line type:
 ```shell
-npm install -g npm
+npm install
 ```
 Note: These will ask for your computer login password, but this is needed to Node JS can make the correct changes to all of the files needed.
 This updates Node JS to the latest version incase there were updates. Sometimes you will need to do this to make sure your local setup works properly.
@@ -160,13 +165,22 @@ Note: If throws an error like "sh: react-scripts: command not found", then refer
 ```shell
 npm start
 ```
-This will open a window in your browser to immediatley show you the changes you made to your website!
+This will open a window in your browser to immediatley show you the changes you made to your website! If it does not open a tab, simply open a new tab and point to the address "localhost:3000" to see your app running locally.
 
-4. Finally, when you want to deploy your working app to your GitHub Page, simply run this command:
+## Deploying to your website
+
+1. You need to setup your ```package.json``` to deploy to your website. Open ```package.json``` and change the argument "homepage" to your personal repository homepage:
+```diff
+- "homepage": "https://diydiagnostics.github.io/NodeJS-Test/"
++ "homepage": "https://<GitHub_Username>.github.io/NodeJS-Test/"
+```
+**Note:** You only need to do this step ONCE!!
+
+2. Finally, when you want to deploy your working app to your GitHub Page, simply run this command:
 ```shell
 npm run deploy
 ```
-This will rebuild your app and then deploy it to your GitHub Page.
+This will rebuild your app and then deploy it to your GitHub Page. Be patient, it might take a few minutes to deploy.
 
 
 
